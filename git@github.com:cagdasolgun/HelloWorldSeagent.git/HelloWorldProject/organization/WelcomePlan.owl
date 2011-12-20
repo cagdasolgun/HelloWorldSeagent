@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'ISO-8859-1' ?>
+<rdf:RDF xmlns:rdf = 'http://www.w3.org/1999/02/22-rdf-syntax-ns#' xmlns:rdfs = 'http://www.w3.org/2000/01/rdf-schema#' xmlns:xsd = 'http://www.w3.org/2001/XMLSchema#' xmlns:owl = 'http://www.w3.org/2002/07/owl#' xmlns = 'seagent://seagent.ege.edu.tr/plan/WelcomePlan.owl#' xml:base = 'seagent://seagent.ege.edu.tr/plan/WelcomePlan.owl' xmlns:htn = 'http://etmen.ege.edu.tr/etmen/ontologies/HTN.owl#'>
+  <owl:Ontology rdf:about = 'seagent://seagent.ege.edu.tr/plan/WelcomePlan.owl'>
+    <owl:imports rdf:resource = 'http://etmen.ege.edu.tr/etmen/ontologies/HTN.owl#'/>
+  </owl:Ontology>
+  <owl:Ontology rdf:about = 'htn'/>
+  <htn:Behavior rdf:ID = 'BHWelcome'>
+    <htn:Task.name rdf:datatype = 'http://www.w3.org/2001/XMLSchema#string'>BHWelcome</htn:Task.name>
+    <htn:Task.timeout rdf:datatype = 'http://www.w3.org/2001/XMLSchema#long'>0</htn:Task.timeout>
+    <htn:Task.priority rdf:datatype = 'http://www.w3.org/2001/XMLSchema#int'>0</htn:Task.priority>
+    <htn:Behavior.period rdf:datatype = 'http://www.w3.org/2001/XMLSchema#long'>0</htn:Behavior.period>
+    <htn:Behavior.cyclic rdf:datatype = 'http://www.w3.org/2001/XMLSchema#boolean'>false</htn:Behavior.cyclic>
+    <htn:Behavior.subtask rdf:resource = '#ACWelcome'/>
+  </htn:Behavior>
+  <htn:Action rdf:ID = 'ACWelcome'>
+    <htn:Task.name rdf:datatype = 'http://www.w3.org/2001/XMLSchema#string'>ACWelcome</htn:Task.name>
+    <htn:Task.timeout rdf:datatype = 'http://www.w3.org/2001/XMLSchema#long'>0</htn:Task.timeout>
+    <htn:Task.priority rdf:datatype = 'http://www.w3.org/2001/XMLSchema#int'>0</htn:Task.priority>
+    <htn:Action.activationClassName rdf:datatype = 'http://www.w3.org/2001/XMLSchema#string'>ACWelcome</htn:Action.activationClassName>
+  </htn:Action>
+</rdf:RDF>

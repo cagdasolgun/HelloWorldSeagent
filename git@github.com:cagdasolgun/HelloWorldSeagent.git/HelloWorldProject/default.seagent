@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<organization:Organization xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:htn="http://etmen.ege.edu.tr/etmen/ontologies/htn.owl" xmlns:organization="http://etmen.ege.edu.tr/ontologies/organization.owl" name="hello_world_organization">
+  <roles name="Welcomer" goals="//@goals.0"/>
+  <goals xsi:type="organization:PerformGoal" name="WelcomeGoal" htnDiagrams="//@htnDiagrams.0"/>
+  <htnDiagrams name="WelcomePlan">
+    <tasks xsi:type="htn:Behavior" name="BHWelcome" subtask="//@htnDiagrams.0/@tasks.1"/>
+    <tasks xsi:type="htn:Action" name="ACWelcome" parent="//@htnDiagrams.0/@tasks.0" activationClassName="ACWelcome"/>
+  </htnDiagrams>
+</organization:Organization>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:htn="http://etmen.ege.edu.tr/etmen/ontologies/htn.owl" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:organization="http://etmen.ege.edu.tr/ontologies/organization.owl" xsi:schemaLocation="http://etmen.ege.edu.tr/etmen/ontologies/htn.owl http://seagent.ege.edu.tr/psm.ecore#//htn http://etmen.ege.edu.tr/ontologies/organization.owl http://seagent.ege.edu.tr/psm.ecore#//organization" xmi:id="_npYNQSsfEeGKf8x4ggZy1g" type="OrganizationDiagram" name="hello_world_organization.org_diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_pGBxcCsfEeGKf8x4ggZy1g" type="2001" fontName="Ubuntu">
+    <children xmi:type="notation:DecorationNode" xmi:id="_pGFb0CsfEeGKf8x4ggZy1g" type="5001"/>
+    <element xmi:type="organization:Role" href="default.seagent#//@roles.0"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pGCYgCsfEeGKf8x4ggZy1g" x="312" y="45"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_rC6U4CsfEeGKf8x4ggZy1g" type="2005" fontName="Ubuntu">
+    <children xmi:type="notation:DecorationNode" xmi:id="_rC678CsfEeGKf8x4ggZy1g" type="5007"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_rC8KECsfEeGKf8x4ggZy1g" type="7002">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_rC8KESsfEeGKf8x4ggZy1g"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_rC8KEisfEeGKf8x4ggZy1g"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_rC8KEysfEeGKf8x4ggZy1g" type="7003">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_rC8KFCsfEeGKf8x4ggZy1g"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_rC8KFSsfEeGKf8x4ggZy1g"/>
+    </children>
+    <element xmi:type="organization:PerformGoal" href="default.seagent#//@goals.0"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rC6U4SsfEeGKf8x4ggZy1g" x="340" y="144"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_zlZ6YCsfEeGKf8x4ggZy1g" type="2007" fontName="Ubuntu">
+    <children xmi:type="notation:DecorationNode" xmi:id="_zlbIgCsfEeGKf8x4ggZy1g" type="5009"/>
+    <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_zlZ6YSsfEeGKf8x4ggZy1g" hint="HTNDiagram">
+      <diagramLink xmi:type="notation:Diagram" href="WelcomePlan.htn_diagram#/"/>
+    </styles>
+    <element xmi:type="htn:HTNDiagram" href="default.seagent#//@htnDiagrams.0"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zlZ6YisfEeGKf8x4ggZy1g" x="376" y="298"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_npY0UCsfEeGKf8x4ggZy1g"/>
+  <element xmi:type="organization:Organization" href="default.seagent#/"/>
+  <edges xmi:type="notation:Connector" xmi:id="_u6EMoCsfEeGKf8x4ggZy1g" type="4005" source="_pGBxcCsfEeGKf8x4ggZy1g" target="_rC6U4CsfEeGKf8x4ggZy1g">
+    <styles xmi:type="notation:FontStyle" xmi:id="_u6EzsCsfEeGKf8x4ggZy1g" fontName="Ubuntu"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_u6EzsSsfEeGKf8x4ggZy1g" points="[3, 10, -33, -100]$[34, 89, -2, -21]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_240y8CsfEeGKf8x4ggZy1g" type="4004" source="_rC6U4CsfEeGKf8x4ggZy1g" target="_zlZ6YCsfEeGKf8x4ggZy1g">
+    <styles xmi:type="notation:FontStyle" xmi:id="_240y8SsfEeGKf8x4ggZy1g" fontName="Ubuntu"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_240y8isfEeGKf8x4ggZy1g" points="[5, 21, -30, -132]$[40, 133, 5, -20]"/>
+  </edges>
+</notation:Diagram>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'ISO-8859-1' ?>
+<rdf:RDF xmlns:rdf = 'http://www.w3.org/1999/02/22-rdf-syntax-ns#' xmlns:rdfs = 'http://www.w3.org/2000/01/rdf-schema#' xmlns:xsd = 'http://www.w3.org/2001/XMLSchema#' xmlns:owl = 'http://www.w3.org/2002/07/owl#' xmlns = 'seagent://seagent.ege.edu.tr/organization/hello_world_organization.owl#' xml:base = 'seagent://seagent.ege.edu.tr/organization/hello_world_organization.owl' xmlns:organization = 'http://etmen.ege.edu.tr/etmen/ontologies/organization.owl#'>
+  <owl:Ontology rdf:about = 'seagent://seagent.ege.edu.tr/organization/hello_world_organization.owl'>
+    <owl:imports rdf:resource = 'http://etmen.ege.edu.tr/etmen/ontologies/organization.owl#'/>
+  </owl:Ontology>
+  <owl:Ontology rdf:about = 'organization'/>
+  <organization:Role rdf:ID = 'Welcomer'>
+    <organization:Role.name rdf:datatype = 'http://www.w3.org/2001/XMLSchema#string'>Welcomer</organization:Role.name>
+    <organization:Role.goals rdf:resource = '#WelcomeGoal'/>
+  </organization:Role>
+  <organization:PerformGoal rdf:ID = 'WelcomeGoal'>
+    <organization:Goal.name rdf:datatype = 'http://www.w3.org/2001/XMLSchema#string'>WelcomeGoal</organization:Goal.name>
+  </organization:PerformGoal>
+  <organization:Plan rdf:ID = 'WelcomeGoal_BHWelcome'>
+    <organization:Plan.goal rdf:resource = '#WelcomeGoal'/>
+    <organization:Plan.task rdf:datatype = 'http://www.w3.org/2001/XMLSchema#string'>BHWelcome</organization:Plan.task>
+  </organization:Plan>
+</rdf:RDF>
